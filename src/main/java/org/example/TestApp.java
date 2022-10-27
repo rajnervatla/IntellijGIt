@@ -16,7 +16,7 @@ public class TestApp {
         driver.get("https://www.google.com");
         WebElement searchBox=driver.findElement(By.xpath("//*[@name='q']"));
         Thread.sleep(1000);
-        searchBox.sendKeys("Hello..");
+        searchBox.sendKeys("Hello.. adding the line for branch ");
         driver.quit();
         driver.quit();
     }
